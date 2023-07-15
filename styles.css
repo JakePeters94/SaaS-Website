@@ -116,3 +116,25 @@
   color: var(--btn-link);
   padding-left: 25px;
 }
+
+.emp-r {
+  float: right;
+  height: 100%;
+  position: relative;
+  z-index: 665;
+  width: 50%;
+  top: -602px;
+}
+
+.logo-icon-wrap {
+  display: inline-flex;
+  background: #FFFF;
+  padding: 18px;
+  border-radius: 96px;
+  width: fit-content;
+  box-shadow: 2px 3px rgba(126, 127, 128, 0.8);
+  border: 1px solid #666;
+}
+
+.emp-r img { height: 40px; }
+.smol img { height: 26px; }
