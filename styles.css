@@ -122,7 +122,7 @@
   height: 100%;
   position: relative;
   z-index: 665;
-  width: 50%;
+  width: 34%;
   top: -602px;
 }
 
@@ -138,3 +138,30 @@
 
 .emp-r img { height: 40px; }
 .smol img { height: 26px; }
+
+#pay {
+  position: relative;
+  bottom: -181px;
+  left: 35px
+}
+
+#ggl-a {
+  position: relative;
+  bottom: -257px;
+}
+
+#wve {
+  position: relative;
+  bottom: -175px;
+}
+
+#asa {
+  position: relative;
+  left: 59px;
+}
+
+#cal {
+  position: relative;
+  bottom: -226px;
+  right: -371px;
+}
