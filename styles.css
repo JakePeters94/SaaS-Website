@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   left: 0;
@@ -66,13 +66,7 @@
   line-height: 20px;
 }
 
-.nav-btn {
-  border: 0.5px solid transparent;
-  background: var(--btn-link);
-  color: var(--white);
-  padding: 5px 20px;
-  border-radius: 25px;
-}
+.nav-btn { padding: 5px 20px; }
 
 .bg-hdr-wrapper {
   display: flex;
@@ -94,6 +88,31 @@
   height: 100%;
   width: 25%;
   background-color: var(--bg-hdr-r);
-  transform: scaleX(2) scaleY(1) scaleZ(2) skewX(-21deg);
+  transform: scaleX(2) scaleY(1) scaleZ(2) skewX(-18deg);
   transform-origin: 1% 99%;
+}
+
+.emp-wrap { height: 350px; }
+
+.emp-l {
+  position: relative;
+  top: -17.8125rem;
+  left: 1.875rem;
+  width: 50%;
+}
+
+.emp-l > h2 {
+  font-size: 1.87rem;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.emp-l > p { margin-top: 0; }
+.emp-btn-link { margin-top: 40px; }
+.emp-btn-link .fa-solid { padding: 5px; }
+
+#emp-link {
+  font-weight: 800;
+  color: var(--btn-link);
+  padding-left: 25px;
 }
