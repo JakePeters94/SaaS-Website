@@ -165,3 +165,26 @@
   bottom: -226px;
   right: -371px;
 }
+
+.bnfs-card-wrapper { padding-top: 200px; }
+.benefits-hdr h2,
+.benefits-hdr p { text-align: center; }
+
+.benefits-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: 40px;
+  margin: auto;
+  align-items: flex-start;
+  width: 91%;
+}
+
+.benefit-card {
+  box-shadow: 0 10px 20px rgba(175, 175, 175, 0.2);
+  padding: 10px 20px;
+}
+
+.benefit-card img { 
+  height: 95px;
+  padding: 10px;
+}
