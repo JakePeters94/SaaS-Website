@@ -49,6 +49,7 @@ ul {
 }
 
 a { text-decoration: none; }
+h2, h3 { color: var(--black); }
 
 .container {
   width: 100%;
