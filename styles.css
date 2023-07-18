@@ -269,7 +269,7 @@
   line-height: 1;
 }
 
-.dot-icon .fa-solid { font-size: 10px; }
+.dot-icon .fa-solid { font-size: 7px; }
 
 .h3-wrap {
   display: flex;
@@ -279,4 +279,38 @@
 }
 
 .h3-comp-row { text-align: center; }
-.banner-wrapper { padding-top: 100px; }
+.banner-test-wrapper { padding-top: 100px; }
+
+.banner img {
+  width: 100%;
+  height: 600px;
+}
+
+.testimonial {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  gap: 100px;
+}
+
+.test-img img { height: 500px; }
+.logo-test { padding-top: 87px; }
+.logo-test img { height: 50px; }
+
+.logo-test p {
+  font-size: 1.84rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.revwr { letter-spacing: 1px; }
+
+.revwr h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.revwr p {
+  margin-top: 0;
+  font-weight: 800;
+}
