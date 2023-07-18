@@ -314,3 +314,10 @@
   margin-top: 0;
   font-weight: 800;
 }
+
+.bg-pattern {
+  height: 350px;
+  position: relative;
+  top: -315px;
+  left: 141px;
+}
