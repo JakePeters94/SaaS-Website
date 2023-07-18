@@ -293,7 +293,11 @@
   gap: 100px;
 }
 
-.test-img img { height: 500px; }
+.test-img img { 
+  height: 500px;
+  position: relative;
+  z-index: 666;
+}
 .logo-test { padding-top: 87px; }
 .logo-test img { height: 50px; }
 
@@ -315,9 +319,29 @@
   font-weight: 800;
 }
 
+.trusted {
+  position: relative;
+  top: -223px
+}
+
+.trusted p {
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.25rem;
+}
+
 .bg-pattern {
   height: 350px;
   position: relative;
   top: -315px;
   left: 141px;
 }
+
+.brand-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.brand img { height: 70px; }
