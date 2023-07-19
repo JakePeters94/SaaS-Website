@@ -279,7 +279,11 @@
 }
 
 .h3-comp-row { text-align: center; }
-.banner-test-wrapper { padding-top: 100px; }
+
+.banner-test-wrapper {
+  padding-top: 100px;
+  margin-bottom: -221px;
+}
 
 .banner img {
   width: 100%;
@@ -291,6 +295,7 @@
   width: 75%;
   margin: auto;
   gap: 100px;
+  padding-top: 100px;
 }
 
 .test-img img { 
@@ -319,10 +324,7 @@
   font-weight: 800;
 }
 
-.trusted {
-  position: relative;
-  top: -223px
-}
+.trusted { padding: 0 30px; }
 
 .trusted p {
   font-weight: 900;
@@ -345,3 +347,76 @@
 }
 
 .brand img { height: 70px; }
+
+.block-txt-pricing {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-content-wrapper {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  gap: 50px;
+}
+
+.monthly {
+  display: flex;
+  width: 45%;
+  padding-bottom: 20px;
+}
+.per-month {
+  padding: 30px 30px;
+  width: 47%;
+  box-shadow: 
+    10px 8px 10px rgba(210, 205, 205, 0.4), 
+    -10px 8px 15px rgba(210, 205, 205, 0.4),
+    10px 8px 15px rgba(210, 205, 205, 0.4);
+}
+
+.pm-txt-wrap {
+  border-top: 1px solid #666;
+  font-size: 1.52rem;
+  padding-top: 15px;
+  width: fit-content;
+  color: var(--font-color-light);
+}
+
+.monthly h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.monthly p {
+  margin-top: 65px;
+  font-weight: 550;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.feature { width: 235px; }
+.feature img { height: 50px; }
+.feature span { display: flex; }
+
+.ft-sketch {
+  margin-left: 10px;
+  margin-top: 21px;
+}
+
+.bottom-btn { padding-top: 25px; }
+
+.bottom-btn p { 
+  color: var(--font-color-light);
+  font-weight: 550;
+ }
+
+.bottom-btn .fa-solid { padding: 5px; }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 20px;
+  grid-gap: 25px;
+}
