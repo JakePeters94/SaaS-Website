@@ -19,7 +19,9 @@
     color: #666;
   }
 
-  
+  .bg-hdr-2 {
+    transform: scaleX(2) scaleY(1) scaleZ(2) skewX(-11.5deg);
+  }
 }
 
 @media screen and (max-width: 480px) {
