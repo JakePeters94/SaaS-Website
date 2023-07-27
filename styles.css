@@ -66,6 +66,8 @@
   line-height: 20px;
 }
 
+#link-wrapper { display: flex; }
+
 .nav-btn { padding: 5px 20px; }
 
 .hdr-wrapper { height: 350px; }
@@ -508,7 +510,7 @@ img.patriarchy { height: 110px; }
   padding: 10px 20px;
 }
 
-.form-wrapper { display: flex; }
+.frm-blk { display: flex; }
 .hf-txt { font-size: 20px; }
 
 h2.hf-txt {

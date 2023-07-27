@@ -19,21 +19,23 @@
         </button>
         <a class="navbar-brand" href="index.html"><img src="./SaaS-assets/saas-project-assets/project_logo/logo.svg" alt="logo.svg"></a>
       <ul class="navbar-nav">
-        <li class="nav-link">
-          <a href="#">Home</a>
-        </li>
-        <li class="nav-link">
-          <a href="#">Features</a>
-        </li>
-        <li class="nav-link">
-          <a href="#">Learn</a>
-        </li>
-        <li class="nav-link">
-          <a href="#">Pricing</a>
-        </li>
-        <li class="nav-link">
-          <a href="#">Hire Us</a>
-        </li>
+        <div id="link-wrapper">
+          <li class="nav-link">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Features</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Learn</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Pricing</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Hire Us</a>
+          </li>
+        </div>
         <a class="btn nav-btn" href="#">Buy Now</a>
       </ul>
       </div>
@@ -54,8 +56,8 @@
       </div>
       <div class="emp-r">
         <span id="pay" class="logo-icon-wrap"><img src="./SaaS-assets/saas-project-assets/logo_icons/paypal.jpg" alt="paypal"></span>
-        <span id="ggl" class="logo-icon-wrap smol"><img src="./SaaS-assets/saas-project-assets/logo_icons/google.png" alt="google"></span>
-        <span id="ggl-a" class="logo-icon-wrap smol"><img src="./SaaS-assets/saas-project-assets/logo_icons/google-A.png" alt="google-a"></span>
+        <span id="ggl" class="logo-icon-wrap smol"><img id="sml-img" src="./SaaS-assets/saas-project-assets/logo_icons/google.png" alt="google"></span>
+        <span id="ggl-a" class="logo-icon-wrap smol"><img id="sml-img" src="./SaaS-assets/saas-project-assets/logo_icons/google-A.png" alt="google-a"></span>
         <span id="atl" class="logo-icon-wrap"><img src="./SaaS-assets/saas-project-assets/logo_icons/atlassian.png" alt="atlassian"></span>
         <span id="wve" class="logo-icon-wrap"><img src="./SaaS-assets/saas-project-assets/logo_icons/weave.png" alt="weave"></span>
         <span id="asa" class="logo-icon-wrap"><img src="./SaaS-assets/saas-project-assets/logo_icons/asana.png" alt="asana"></span>
@@ -113,36 +115,38 @@
         <h2>Why Front?</h2>
         <p>Front is an incredibly beautiful, fully responsive and mobile first project on<br>the web - it is the starting point for creative sites.</p>
       </div>
-      <div class="dot-wrapper">
-        <div class="comp-icon-row">
-          <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
-        </div>
-        <hr>
-        <div class="comp-icon-row">
-          <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
-        </div>
-        <hr>
-        <div class="comp-icon-row">
-          <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
-        </div>
-        <hr>
-        <div class="comp-icon-row">
-          <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
-        </div>
-        </div>
-        <div class="h3-wrap">
-          <div class="h3-comp-row">
-            <h3>Basic elements</h3>
+      <div class="wf-content-wrap">
+        <div class="dot-wrapper wf-content">
+          <div class="comp-icon-row">
+            <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
           </div>
-          <div class="h3-comp-row">
-            <h3>Components</h3>
+          <hr>
+          <div class="comp-icon-row">
+            <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
           </div>
-          <div class="h3-comp-row">
-            <h3>Combined components</h3>
+          <hr>
+          <div class="comp-icon-row">
+            <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
           </div>
-          <div class="h3-comp-row">
-            <h3>Page layouts</h3>
+          <hr>
+          <div class="comp-icon-row">
+            <div class="dot-icon"><i class="fa-solid fa-circle"></i></div>
           </div>
+          </div>
+          <div class="h3-wrap wf-content">
+            <div class="h3-comp-row">
+              <h3>Basic elements</h3>
+            </div>
+            <div class="h3-comp-row">
+              <h3>Components</h3>
+            </div>
+            <div class="h3-comp-row">
+              <h3>Combined components</h3>
+            </div>
+            <div class="h3-comp-row">
+              <h3>Page layouts</h3>
+            </div>
+        </div>
       </div>
     </section>
       <div class="banner-test-wrapper">
@@ -253,26 +257,28 @@
           <h2>Fill out the form and we'll be in touch as soon as<br>possible</h2>
         </div>
         <div class="form-wrapper">
-          <div class="form1">
+          <div class="form">
             <form action="#">
+              <div class="form-fn frm-blk">
+                <input class="hf-input" type="text" placeholder="First Name">
               <input class="hf-input" type="text" placeholder="First Name">
-              <input class="hf-input" type="text" placeholder="First Name">
-              <select class="drp-dwn" name="budget" id="budget">
+              </div>
+              <div class="form-ln frm-blk">
+                <input class="hf-input" type="text" placeholder="Last Name">
+              <input class="hf-input" type="text" placeholder="Last Name">
+              </div>
+              <div class="drp-wrap frm-blk">
+                <select class="drp-dwn" name="budget" id="budget">
                 <option value="null">Budget</option>
                 <option value="">100k+</option>
                 <option value="">I'm broke!</option>
               </select>
-            </form>
-          </div>
-          <div class="form2">
-            <form action="#">
-              <input class="hf-input" type="text" placeholder="Last Name">
-              <input class="hf-input" type="text" placeholder="Last Name">
-              <select class="drp-dwn" name="Country" id="Country">
+                <select class="drp-dwn" name="Country" id="Country">
                 <option value="null">Country</option>
                 <option value="USA">USA</option>
                 <option value="other">other</option>
               </select>
+              </div>
             </form>
           </div>
         </div>
@@ -358,11 +364,11 @@
               <span class="icon-btm goog"><i class="fa-brands fa-google"></i></span>
               <span class="icon-btm"><i class="fa-brands fa-twitter"></i></span>
               <span class="icon-btm"><i class="fa-brands fa-github"></i></span>
-              <select class="drp-dwn-btm" name="Country" id="Country">
-                <option value="USA"><span>&#127482; &#127480;</span> United States</option>
-                <option value="other">other</option>
-              </select>
             </div>
+            <select class="drp-dwn-btm" name="Country" id="Country">
+              <option value="USA"><span>&#127482; &#127480;</span> United States</option>
+              <option value="other">other</option>
+            </select>
           </div>
           <div class="copyright">
             <p>© Front. 2022 Responsive designs. All rights reserved</p>
