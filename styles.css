@@ -18,6 +18,8 @@
   color: #666;
 }
 
+#closer { display: none; }
+
 .navbar-toggler {
   position: absolute;
   right: 20px;
@@ -195,6 +197,7 @@
   width: 91%;
   position: relative;
   padding-bottom: 75px;
+  max-width: 1200px;
 }
 
 .benefit-card {
@@ -297,7 +300,8 @@
 
 .banner img {
   width: 100%;
-  height: 600px;
+  height: 500px;
+  padding: 0 30px;
 }
 
 .banner-play-btn > span {
@@ -319,10 +323,12 @@
 
 .testimonial {
   display: flex;
-  width: 90%;
   margin: auto;
   gap: 100px;
   padding-top: 100px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .test-img img { 
@@ -365,8 +371,8 @@
 .bg-pattern {
   height: 350px;
   position: relative;
-  bottom: 315px;
-  left: 36px;
+  bottom: 314px;
+  left: 149px;
 }
 
 .brand-wrapper {
@@ -396,6 +402,7 @@
   width: 45%;
   padding-bottom: 20px;
 }
+
 .per-month {
   padding: 30px 30px;
   width: 47%;
@@ -413,13 +420,15 @@
   color: var(--font-color-light);
 }
 
+.pm-txt-wrap p { font-size: 20px; }
+
 .monthly h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 
 .monthly p {
-  margin-top: 90px;
+  margin-top: 58px;
   font-weight: 550;
   padding-left: 20px;
   margin-bottom: 0;
@@ -467,18 +476,18 @@
 .whyt-txt {
   color: var(--white);
   margin-bottom: 0;
-  font-size: 2.4rem;
+  font-size: 30px;
 }
 
 .quote {
   font-style: italic;
   margin-bottom: 40px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .hu-txt {
   margin-top: 0;
-  font-size: 23px;
+  font-size: 15px;
 }
 
 .brd-btm {
@@ -487,7 +496,7 @@
   padding-bottom: 20px;
 }
 
-.name { font-size: 29px; }
+.name { font-size: 20px; }
 
 .hu-img-container {
   display: flex;
@@ -511,7 +520,7 @@ img.patriarchy { height: 110px; }
 }
 
 .frm-blk { display: flex; }
-.hf-txt { font-size: 20px; }
+.hf-txt { font-size: 14px; }
 
 h2.hf-txt {
   color: black;
@@ -565,7 +574,7 @@ h2.hf-txt {
 
 .cb-label {
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
   padding-left: 55px;
 }
@@ -579,16 +588,16 @@ h2.hf-txt {
   margin: 15px;
   font-weight: 700;
   border-bottom-style: dotted;
-  font-size: 20px;
 }
 
 .priv-link { color: var(--btn-link); }
 
-.priv-txt { font-size: 30px; }
+.priv-txt { font-size: 20px; }
 
 .gs-btn {
   width: 50%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding: 40px;
   font-size: 20px;
