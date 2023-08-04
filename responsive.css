@@ -101,7 +101,7 @@
 
   .dot-wrapper { padding: 0 65px; }
   .h3-wrap { padding: 0 40px; }
-  .banner-test-wrapper { height: 1654px; }
+  .banner-test-wrapper { height: 1705px; }
   .banner img { height: 450px; }
   .banner-play-btn > span { bottom: 315px; }
 
@@ -179,38 +179,35 @@
   #sml-img { height: 35px; }
 
   #pay {
-    top: 45px;
-    left: 1px;
+    top: 13%;
+    left: -1%;
   }
 
   #ggl {
-    right: 85px;
-    bottom: 60px;
+    top: 13%;
+    left: -1%;
   }
 
-  #ggl-a {
-    right: 70px;
-    bottom: 10px;
-  }
+  #ggl-a { right: 15%; }
 
   #atl {
-    bottom: 26px;
-    right: 105px;
+    bottom: 9%;
+    right: 22%;
   }
 
   #wve {
-    top: 50px;
-    left: -100px;
+    top: 17%;
+    left: -20%;
   }
 
   #asa {
-    bottom: 145px;
-    left: 200px;
+    bottom: 43%;
+    left: 45%;
   }
 
   #cal {
-    top: 98px;
-    left: 40px;
+    top: 33%;
+    left: 7%;
   }
 
   .benefits-hdr { margin-top: 45px; }
@@ -302,4 +299,69 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media screen and (max-width: 376px) {
+  .bg-hdr2 {
+    transform: scaleX(2) scaleY(1) scaleZ(2) skewX(-6.5deg);
+    width: 35%;
+  }
+
+  .emp-l {
+    left: 0;
+    margin: auto;
+  }
+
+  #pay {
+    top: 16%;
+    left: -4%;
+  }
+
+  #ggl {
+    top: -20%;
+    left: -21%;
+  }
+
+  #ggl-a {
+    top: 46%;
+    left: -29%
+  }
+
+  #atl {
+    bottom: 13%;
+    right: 34%;
+  }
+
+  #wve {
+    top: -5%;
+    left: 28%;
+  }
+
+  #asa {
+    left: 37%;
+    bottom: 49%;
+  }
+
+  #cal {
+    top: 29%;
+    left: 3%;
+  }
+
+  .vf-wrapper { margin: 40px; }
+  .h3-comp-row { line-height: 1.5; }
+  .banner img { height: 382px; }
+  .banner-play-btn > span { bottom: 250px; }
+
+  .test-img > img {
+    height: 345px;
+    left: 0;
+  }
+
+  .bg-pattern {
+    bottom: 935px;
+    left: 12px;
+  }
+
+  .hu-img-container,
+  .gs-btn { width: 85%; }
 }
