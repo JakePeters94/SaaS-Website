@@ -308,7 +308,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  z-index: 500;
+  z-index: 499;
   bottom: 350px;
 }
 
@@ -334,7 +334,7 @@
 .test-img img { 
   height: 500px;
   position: relative;
-  z-index: 666;
+  z-index: 499;
 }
 .logo-test { padding-top: 87px; }
 .logo-test img { height: 50px; }
@@ -693,3 +693,28 @@ footer { padding: 40px; }
 }
 
 .copyright > p { margin: 30px; }
+
+.sticky {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  left: 0;
+  padding: 20px 10%;
+  z-index: 500;
+  box-shadow: 0 0 20px rgb(52 49 75 / 10%);
+  transition: ease-in-out 1s;
+}
+
+.benefit-card:hover {
+  animation: card 300ms ease-in-out 0s 1 normal both;
+}
+
+@keyframes card {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
