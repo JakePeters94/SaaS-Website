@@ -227,8 +227,9 @@
 }
 
 .vf {
-  padding-top: 75px;
+  padding: 75px;
   width: 50%;
+  text-align: center;
 }
 
 .vf-img > img {
